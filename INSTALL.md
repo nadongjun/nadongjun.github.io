@@ -1,9 +1,10 @@
 # Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Installing and Deploying](#installing-and-deploying)
   - [Recommended Approach](#recommended-approach)
-  - [Local Setup on Windows](#local-setup-on-windows)
-  - [Local Setup using Docker (Recommended)](#local-setup-using-docker-recommended)
+  - [Local setup on Windows](#local-setup-on-windows)
+  - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
     - [Build your own docker image](#build-your-own-docker-image)
   - [Local Setup (Legacy)](#local-setup-legacy)
   - [Deployment](#deployment)
@@ -13,7 +14,7 @@
     - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
     - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
-  - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+    - [Upgrading from a previous version](#upgrading-from-a-previous-version)
 
 # Installing and Deploying
 
@@ -67,7 +68,7 @@ Now, feel free to customize the theme however you like (don't forget to change t
 Build and run a new docker image using:
 
 ```bash
-$ docker compose up --build
+$ c
 ```
 
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
